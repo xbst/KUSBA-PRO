@@ -6,7 +6,8 @@ Start with a picture, followed by a brief description.
 Only add if there are features worth explaining/listing in a table.
 
 ## Purchasing a XXX
-- Store 1 (...)
+### United States
+- [Isik's Tech](.) (Me)
 
 This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed to sell PCBs without paying me. If you'd like to support the development of this and future projects please consider [sponsoring](https://github.com/sponsors/xbst) me on GitHub. You can also subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
