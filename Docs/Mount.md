@@ -1,17 +1,28 @@
 # KUSBA PRO Assembly
 
 ### Tools Needed
-- Philips #0 Screwdriver
-- Metric Hex 2.5 Driver
-- Soldering Iron
+| Tool                    | Link |
+|---|---|
+| Phillips #0 Screwdriver |[Amazon US](https://amzn.to/3SBHJuH)|
+| Metric Hex 2.5 Driver   |[Amazon US](https://amzn.to/473705w)|
+| Soldering Iron          |[Amazon US](https://amzn.to/3ssW5TC) [Aliexpress](https://s.click.aliexpress.com/e/_DBhTVYR)|
 
 ### Parts Needed
-- KUSBA PRO PCB
-- Front MJF Part
-- Back MJF Part
-- 2x M2x8 Self Tapper Screw
-- 2x M3x12 Screw
-- 2x M3x5x4 Threaded Insert
+| Part                       | Link |
+|---|---|
+| KUSBA PRO PCB              | Check the main [readme](../README.md#purchasing-a-kusba-pro) file |
+| [Front MJF Part](../Mount/Front.stl)| [Jawstec](https://www.jawstec.com/3d-printing-service/?aff=6)|
+| [Back MJF Part](../Mount/Back.stl)| [Jawstec](https://www.jawstec.com/3d-printing-service/?aff=6)|
+| 2x M2x8 Self Tapper Screw  |[Amazon US](https://amzn.to/49wyDp5) [Aliexpress](https://s.click.aliexpress.com/e/_DeJRkcL)|
+| 2x M3x12 Screw             |[Amazon US](https://amzn.to/3ssW2XW) [Aliexpress](https://s.click.aliexpress.com/e/_DD2Wxyr)|
+| 2x M3x5x4 Threaded Insert  |[Amazon US](https://amzn.to/4736XXo) [Aliexpress](https://s.click.aliexpress.com/e/_DkG3oHz)|
 
 ### Video
 Soon
+
+(Placeholder)
+
+```[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)```
+
+### Note
+- This guide contains Amazon Associate, Aliexpress affiliate, JawsTec affiliate links. I make a comission on qualifying purchases.
