@@ -1,5 +1,8 @@
 # KUSBA PRO (Nozzle KUSBA)
-![](./Images/PCB.jpg)
+[YouTube Video](.)
+
+![KUSBA PRO](./Images/PCB.jpg)
+
 DeScRiPtIoN
 
 ## Purchasing a KUSBA PRO
@@ -23,7 +26,7 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 |             |KUSBA PRO|KUSBA v2.4|
 |-------------|---------|----------|
-|Picture      |         |          |
+|Picture      |![KUSBA PRO](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
 |MCU          |STM32F042|RP2040    |
 |Accelerometer|LIS2DW   |ADXL345   |
 |3.3V Regulator|LP5907MFX-3.3|AMS1117-3.3|
@@ -32,20 +35,6 @@ You can also use the included gerber files to order your own from a PCB manufact
 |Firmware     |Klipper  |Klipper, Rampon|
 |PCB Size     |26.0 x 17.6 mm|34.0 x 25.0 mm|
 |Smallest SMD |0201     |0402      |
-
-## Folders
-
-Delete this.
-
-| Folder | For |
-| ------ | --- |
-| CAD | CAD models of the PCB and mounts |
-| Docs | Guides, extra docs |
-| EasyEDA-Source | Source .json files, in version folders |
-| Firmware | Klipper .cfg files, if multiple options available, in sub folders |
-| Gerbers | Gerbers in `Gerbers.zip`, BOM in `BOM.csv`, CPL in `PNP.csv`|
-| Images | Images for docs |
-| Mounts | Mounts for the PCB, add a `README.md` |
 
 ## YouTube
 
