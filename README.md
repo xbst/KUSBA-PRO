@@ -5,9 +5,9 @@
 
 ## Purchasing a KUSBA PRO
 ### United States
-- [Isik's Tech](.) (Me)
+- ~~[Isik's Tech](.) (Me)~~ soon
 ### European Union
-- [Lab4450 - Portugal](.)
+- ~~[Lab4450 - Portugal](.)~~ soon
 
 This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed to sell PCBs without paying me. If you'd like to support the development of this and future projects please consider [sponsoring](https://github.com/sponsors/xbst) me on GitHub. You can also subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
