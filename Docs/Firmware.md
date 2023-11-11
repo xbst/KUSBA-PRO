@@ -1,4 +1,4 @@
-# KUSBA PRO Firmware Flashing
+# KUSBA PRO Firmware Flashing & Usage
 
 Note: Make sure to use an up-to-date version of Klipper with LIS2DW accelerometer support.
 
@@ -50,4 +50,13 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 14. [Download the `adxlmcu.cfg` file from this repository](../Firmware/adxlmcu.cfg).
 15. Upload the `adxlmcu.cfg` file to your config directory. You can do this on Mainsail/Fluidd etc.
 16. Edit the `adxlmcu.cfg` file (in Mainsail/Fluidd). Change the MCU serial address (step 13) and the probe points.
-17. Save and close. If your KUSBA PRO is assembled already move to the [measuring resonances](./Usage.md) doc, otherwise follow the [assembly](./Mount.md) doc first.
+17. Save and close.
+18. If your KUSBA PRO isn't assembled follow the [assembly](./Mount.md) doc first.
+19. Edit your `printer.cfg` file. Add:
+```
+[include adxlmcu.cfg]
+```
+20. Do your input shaper testing. When done comment the include line to disable the KUSBA PRO. (If you don't do this and unplug the KUSBA PRO, Klipper won't work.)
+```
+# [include adxlmcu.cfg]
+```
