@@ -19,7 +19,6 @@ You can also use the included gerber files to order your own from a PCB manufact
 ## Instructions
 
 - [Firmware flashing](./Docs/Firmware.md)
-- [Measuring resonances](./Docs/Usage.md)
 - [Assembling PCB and MJF mount](./Docs/Mount.md)
 
 ## KUSBA v2 vs PRO
