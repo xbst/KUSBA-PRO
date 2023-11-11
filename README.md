@@ -10,14 +10,14 @@ DeScRiPtIoN
 
 This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed to sell PCBs without paying me. If you'd like to support the development of this and future projects please consider [sponsoring](https://github.com/sponsors/xbst) me on GitHub. You can also subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
-You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/) and you can order the MJF mount from a 3D printing company like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JawsTec](.).
+You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/) and you can order the MJF mount from a 3D printing company like [JawsTec](https://www.jawstec.com/3d-printing-service/?aff=6).
 <br>
 
 ## Instructions
 
-- [Firmware flashing](.)
-- [Measuring resonances](.)
-- [Assembling PCB and MJF mount](.)
+- [Firmware flashing](./Docs/Firmware.md)
+- [Measuring resonances](./Docs/Usage.md)
+- [Assembling PCB and MJF mount](./Docs/Mount.md)
 
 ## KUSBA v2 vs PRO
 
