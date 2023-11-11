@@ -1,9 +1,7 @@
 # KUSBA PRO (Nozzle KUSBA)
-[YouTube Video](.)
+~~[YouTube Video](.)~~ soon
 
 ![KUSBA PRO](./Images/PCB.jpg)
-
-DeScRiPtIoN
 
 ## Purchasing a KUSBA PRO
 ### United States
