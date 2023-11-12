@@ -18,7 +18,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 
 <br>
 
-1. Connect your KUSBA PRO via a USB cable to your Raspberry Pi while holding down the button.
+1. Connect your KUSBA PRO via a USB cable to your Raspberry Pi while holding down the button. The LED on the PCB will turn on.
 2. SSH into your Raspberry Pi.
 3. Go to the Klipper directory: `cd ~/klipper`
 4. Clean remaining files from previous build: `make clean`
@@ -29,7 +29,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
     Micro-controller Architecture (STMicroelectronics STM32)  --->
     Processor model (STM32F042)  --->
     Bootloader offset (No bootloader)  --->
-    Communication interface (USB (on PA11/PA12))  --->
+    Communication interface (USB (on PA9/PA10))  --->
     Optional features (to reduce code size)  --->
 ```
 7. Enter the `Optional features (to reduce code size)` menu. Disable LCD devices:
@@ -45,18 +45,17 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 9. Build the firmware: `make`
 10. Find the ID of your KUSBA PRO in DFU mode using `lsusb`. It should be the device appearing as `STM Device in DFU mode`.
 11. Flash the firmware: `make flash FLASH_DEVICE=1234:5678`. Replace `1234:5678` with the ID you found in the above step.
-12. Disconnect your KUSBA PRO. Connect it again.
-13. Use `ls /dev/serial/by-id/*` to find the serial address of your KUSBA PRO. It'll start with: `usb-Klipper_stm32f042`
-14. [Download the `adxlmcu.cfg` file from this repository](../Firmware/adxlmcu.cfg).
-15. Upload the `adxlmcu.cfg` file to your config directory. You can do this on Mainsail/Fluidd etc.
-16. Edit the `adxlmcu.cfg` file (in Mainsail/Fluidd). Change the MCU serial address (step 13) and the probe points.
-17. Save and close.
-18. If your KUSBA PRO isn't assembled follow the [assembly](./Mount.md) doc first.
-19. Edit your `printer.cfg` file. Add:
+12. Use `ls /dev/serial/by-id/*` to find the serial address of your KUSBA PRO. It'll start with: `usb-Klipper_stm32f042`
+13. [Download the `adxlmcu.cfg` file from this repository](../Firmware/adxlmcu.cfg).
+14. Upload the `adxlmcu.cfg` file to your config directory. You can do this on Mainsail/Fluidd etc.
+15. Edit the `adxlmcu.cfg` file (in Mainsail/Fluidd). Change the MCU serial address (step 12) and the probe points.
+16. Save and close.
+17. If your KUSBA PRO isn't assembled follow the [assembly](./Mount.md) doc first.
+18. Edit your `printer.cfg` file. Add:
 ```
 [include adxlmcu.cfg]
 ```
-20. Do your input shaper testing. When done comment the include line to disable the KUSBA PRO. (If you don't do this and unplug the KUSBA PRO, Klipper won't work.)
+19. Do your input shaper testing. When done comment the include line to disable the KUSBA PRO. (If you don't do this and unplug the KUSBA PRO, Klipper won't work.)
 ```
 # [include adxlmcu.cfg]
 ```
