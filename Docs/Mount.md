@@ -18,11 +18,7 @@
 | 2x M3x5x4 Threaded Insert  |[Amazon US](https://amzn.to/4736XXo) [Aliexpress](https://s.click.aliexpress.com/e/_DkG3oHz)|
 
 ### Video
-Soon
-
-(Placeholder)
-
-```[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)```
+[![KUSBA PRO Assembly](https://img.youtube.com/vi/K55Uk8NYE5w/0.jpg)](https://www.youtube.com/watch?v=K55Uk8NYE5w)
 
 ### Note
 - This guide contains Amazon Associate, Aliexpress affiliate, JawsTec affiliate links. I make a comission on qualifying purchases.
