@@ -5,7 +5,7 @@
 
 ## Purchasing a KUSBA PRO
 ### United States
-- ~~[Isik's Tech](.) (Me)~~ soon
+- [Isik's Tech](https://store.isiks.tech/products/kusba-pro-1) (Me)
 ### European Union
 - ~~[Lab4450 - Portugal](.)~~ soon
 
