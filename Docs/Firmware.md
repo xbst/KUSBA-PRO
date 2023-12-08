@@ -25,7 +25,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 5. Choose the options for the build: `make menuconfig`
 6. Use these settings:
 ```
-[ ] Enable extra low-level configuration options
+[*] Enable extra low-level configuration options
     Micro-controller Architecture (STMicroelectronics STM32)  --->
     Processor model (STM32F042)  --->
     Bootloader offset (No bootloader)  --->
