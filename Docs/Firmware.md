@@ -32,13 +32,13 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
     Communication interface (USB (on PA9/PA10))  --->
     Optional features (to reduce code size)  --->
 ```
-7. Enter the `Optional features (to reduce code size)` menu. Disable LCD devices:
+7. Enter the `Optional features (to reduce code size)` menu. Disable LCD devices and software I2C:
 ```
 [*] Support GPIO "bit-banging" devices
 [ ] Support LCD devices
 [*] Support external sensor devices
 [*] Support lis2dw 3-axis accelerometer
-[*] Support software based I2C "bit-banging"
+[ ] Support software based I2C "bit-banging"
 [*] Support software based SPI "bit-banging"
 ```
 8. Exit by typing `Q`, save by pressing `Y`.
