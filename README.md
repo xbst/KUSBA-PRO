@@ -1,5 +1,5 @@
 # KUSBA PRO (Nozzle KUSBA)
-~~[YouTube Video](.)~~ soon
+[YouTube Video](https://www.youtube.com/watch?v=ecENeHfXG64)
 
 ![KUSBA PRO](./Images/PCB.jpg)
 
