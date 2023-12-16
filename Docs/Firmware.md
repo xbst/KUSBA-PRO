@@ -29,8 +29,11 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
     Micro-controller Architecture (STMicroelectronics STM32)  --->
     Processor model (STM32F042)  --->
     Bootloader offset (No bootloader)  --->
+    Clock Reference (8 MHz crystal)  --->
     Communication interface (USB (on PA9/PA10))  --->
+    USB ids  --->
     Optional features (to reduce code size)  --->
+()  GPIO pins to set at micro-controller startup (NEW)
 ```
 7. Enter the `Optional features (to reduce code size)` menu. Disable LCD devices and software I2C:
 ```
