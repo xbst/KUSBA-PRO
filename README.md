@@ -6,6 +6,8 @@
 ## Purchasing a KUSBA PRO
 ### United States
 - [Isik's Tech](https://store.isiks.tech/products/kusba-pro-1) (Me)
+### United Kingdom
+- [Printy Please](https://www.printyplease.uk/KUSBAPro)
 ### European Union
 - [Lab4450 - Portugal](https://lab4450.com/product/nozzle-kusba-pro-accelerometer/)
 
