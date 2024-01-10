@@ -6,6 +6,7 @@
 ## Purchasing a KUSBA PRO
 ### United States
 - [Isik's Tech](https://store.isiks.tech/products/kusba-pro-1) (Me)
+- [XR Bunker](https://xrbunker.works/products/kusba-pro-nozzle-usb-accelerometer-by-xbst_isik)
 ### United Kingdom
 - [Printy Please](https://www.printyplease.uk/KUSBAPro)
 ### European Union
