@@ -22,7 +22,8 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 ## Instructions
 
-- [Firmware Flashing & Usage](./Docs/Firmware.md)
+- [LIS2DW Variant (v1.0) Firmware Flashing & Usage](./Docs/Firmware.md)
+- [ADXL345 Variant (v2.0) Firmware Flashing & Usage](./Docs/Firmware-v2.md)
 - [Assembling PCB and MJF Mount](./Docs/Mount.md)
 
 ## KUSBA v2 vs PRO
