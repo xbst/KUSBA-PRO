@@ -6,7 +6,7 @@
 
 ## Purchasing a KUSBA PRO
 ### United States
-- [Isik's Tech](https://store.isiks.tech/products/kusba-pro-1) (Me)
+- [Isik's Tech](https://store.isiks.tech/products/kusba-pro) (Me)
 - [XR Bunker](https://xrbunker.works/products/kusba-pro-nozzle-usb-accelerometer-by-xbst_isik)
 ### United Kingdom
 - [Printy Please](https://www.printyplease.uk/KUSBAPro)
@@ -27,17 +27,17 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 ## KUSBA v2 vs PRO
 
-|             |KUSBA PRO|KUSBA v2.4|
-|-------------|---------|----------|
-|Picture      |![KUSBA PRO](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
-|MCU          |STM32F042|RP2040    |
-|Accelerometer|LIS2DW   |ADXL345   |
-|3.3V Regulator|LP5907MFX-3.3|AMS1117-3.3|
-|Flash        |N/A      |W25Q16JVSNIQ|
-|Connector    |USB C    |USB C     |
-|Firmware     |Klipper  |Klipper, Rampon|
-|PCB Size     |26.0 x 17.6 mm|34.0 x 25.0 mm|
-|Smallest SMD |0201     |0402      |
+|             |KUSBA PRO v2.0|KUSBA PRO v1.0|KUSBA v2.4|
+|-------------|--------------|--------------|----------|
+|Picture      |![KUSBA PRO](./Images/PCBv2.jpg)|![KUSBA PRO](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
+|MCU          |STM32G431     |STM32F042     |RP2040    |
+|Accelerometer|ADXL345       |LIS2DW        |ADXL345   |
+|3.3V Regulator|LP5907MFX-3.3|LP5907MFX-3.3|AMS1117-3.3|
+|Flash        |N/A           |N/A         |W25Q16JVSNIQ|
+|Connector    |USB C         |USB C         |USB C     |
+|Firmware     |Klipper       |Klipper  |Klipper, Rampon|
+|PCB Size     |26.0 x 17.6 mm|26.0 x 17.6 mm|34.0 x 25.0 mm|
+|Smallest SMD |0402          |0201          |0402      |
 
 ## YouTube
 
