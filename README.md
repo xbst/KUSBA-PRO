@@ -1,8 +1,7 @@
-# WIP!!! EVERYTHING IN THIS BRANCH IS TBD
 # KUSBA Pro (Nozzle KUSBA)
 [YouTube Video](https://www.youtube.com/watch?v=ecENeHfXG64)
 
-![KUSBA Pro](./Images/PCB.jpg)
+![KUSBA Pro](./Images/PCB-w-Mount.jpg)
 
 ## Purchasing a KUSBA Pro
 ### United States
@@ -30,7 +29,7 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 |             |KUSBA Pro v2.0|KUSBA Pro v1.0|KUSBA v2.4|
 |-------------|--------------|--------------|----------|
-|Picture      |![KUSBA Pro](./Images/PCBv2.jpg)|![KUSBA Pro](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
+|Picture      |<img src="./Images/PCBv2.jpg" width="360"/>|<img src="./Images/PCB.jpg" width="360"/>|<img src="https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg" width="360"/>|
 |MCU          |STM32G431     |STM32F042     |RP2040    |
 |Accelerometer|ADXL345       |LIS2DW        |ADXL345   |
 |3.3V Regulator|LP5907MFX-3.3|LP5907MFX-3.3|AMS1117-3.3|
