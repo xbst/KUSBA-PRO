@@ -1,10 +1,10 @@
 # WIP!!! EVERYTHING IN THIS BRANCH IS TBD
-# KUSBA PRO (Nozzle KUSBA)
+# KUSBA Pro (Nozzle KUSBA)
 [YouTube Video](https://www.youtube.com/watch?v=ecENeHfXG64)
 
-![KUSBA PRO](./Images/PCB.jpg)
+![KUSBA Pro](./Images/PCB.jpg)
 
-## Purchasing a KUSBA PRO
+## Purchasing a KUSBA Pro
 ### United States
 - [Isik's Tech](https://store.isiks.tech/products/kusba-pro) (Me)
 - [XR Bunker](https://xrbunker.works/products/kusba-pro-nozzle-usb-accelerometer-by-xbst_isik)
@@ -22,15 +22,15 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 ## Instructions
 
-- [LIS2DW Variant (v1.0) Firmware Flashing & Usage](./Docs/Firmware.md)
-- [ADXL345 Variant (v2.0) Firmware Flashing & Usage](./Docs/Firmware-v2.md)
+- [LIS2DW KUSBA Pro (v1.0) Firmware Flashing & Usage](./Docs/Firmware.md)
+- [ADXL345 KUSBA Pro (v2.0) Firmware Flashing & Usage](./Docs/Firmware-v2.md)
 - [Assembling PCB and MJF Mount](./Docs/Mount.md)
 
-## KUSBA v2 vs PRO
+## KUSBA v2.4 vs Pro v1.0 vs Pro v2.0
 
-|             |KUSBA PRO v2.0|KUSBA PRO v1.0|KUSBA v2.4|
+|             |KUSBA Pro v2.0|KUSBA Pro v1.0|KUSBA v2.4|
 |-------------|--------------|--------------|----------|
-|Picture      |![KUSBA PRO](./Images/PCBv2.jpg)|![KUSBA PRO](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
+|Picture      |![KUSBA Pro](./Images/PCBv2.jpg)|![KUSBA Pro](./Images/PCB.jpg)|![KUSBA v2.4](https://github.com/xbst/KUSBA/blob/main/Images/v2.jpg)|
 |MCU          |STM32G431     |STM32F042     |RP2040    |
 |Accelerometer|ADXL345       |LIS2DW        |ADXL345   |
 |3.3V Regulator|LP5907MFX-3.3|LP5907MFX-3.3|AMS1117-3.3|
