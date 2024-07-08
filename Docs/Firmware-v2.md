@@ -16,7 +16,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 
 <br>
 
-1. Connect your KUSBA PRO via a USB cable to your Raspberry Pi while holding down the button. The LED on the PCB will turn on.
+1. Connect your KUSBA PRO via a USB cable to your Raspberry Pi while holding down the button.
 2. SSH into your Raspberry Pi.
 3. Go to the Klipper directory: `cd ~/klipper`
 4. Clean remaining files from previous build: `make clean`
