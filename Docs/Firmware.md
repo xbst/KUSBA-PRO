@@ -35,7 +35,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
     Optional features (to reduce code size)  --->
 ()  GPIO pins to set at micro-controller startup (NEW)
 ```
-7. Enter the `Optional features (to reduce code size)` menu. Disable LCD devices and software I2C:
+7. Enter the `Optional features (to reduce code size)` menu. Disable these options:
 ```
 [ ] Support GPIO "bit-banging" devices
 [ ] Support LCD devices
