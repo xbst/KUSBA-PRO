@@ -1,4 +1,4 @@
-# KUSBA PRO Assembly
+# KUSBA Pro Mount Assembly
 
 ### Tools Needed
 | Tool                    | Link |
