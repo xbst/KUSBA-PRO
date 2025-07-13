@@ -1,5 +1,4 @@
-# KUSBA PRO Firmware Flashing & Usage
-
+# KUSBA Pro v2 (ADXL345) Instructions
 <br>
 
 <details>
@@ -37,7 +36,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 9. Find the ID of your KUSBA PRO in DFU mode using `lsusb`. It should be the device appearing as `STM Device in DFU mode`.
 10. Flash the firmware: `make flash FLASH_DEVICE=1234:5678`. Replace `1234:5678` with the ID you found in the above step.
 11. Use `ls /dev/serial/by-id/*` to find the serial address of your KUSBA PRO. It'll start with: `usb-Klipper_stm32g431`
-12. [Download the `adxlmcu.cfg` file from this repository](../Firmware-v2/adxlmcu.cfg).
+12. [Download the `adxlmcu.cfg` file from this repository](https://github.com/xbst/KUSBA-PRO/blob/master/Firmware-v2/adxlmcu.cfg).
 13. Upload the `adxlmcu.cfg` file to your config directory. You can do this on Mainsail/Fluidd etc.
 14. Edit the `adxlmcu.cfg` file (in Mainsail/Fluidd). Change the MCU serial address (step 12) and the probe points.
 15. Save and close.
