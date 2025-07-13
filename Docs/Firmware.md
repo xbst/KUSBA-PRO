@@ -1,4 +1,4 @@
-# KUSBA PRO Firmware Flashing & Usage
+# KUSBA Pro v1 (LIS2DW) Instructions
 
 Note: Make sure to use an up-to-date version of Klipper with LIS2DW accelerometer support.
 
@@ -49,7 +49,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 10. Find the ID of your KUSBA PRO in DFU mode using `lsusb`. It should be the device appearing as `STM Device in DFU mode`.
 11. Flash the firmware: `make flash FLASH_DEVICE=1234:5678`. Replace `1234:5678` with the ID you found in the above step.
 12. Use `ls /dev/serial/by-id/*` to find the serial address of your KUSBA PRO. It'll start with: `usb-Klipper_stm32f042`
-13. [Download the `adxlmcu.cfg` file from this repository](../Firmware/adxlmcu.cfg).
+13. [Download the `adxlmcu.cfg` file from this repository](https://github.com/xbst/KUSBA-PRO/blob/master/Firmware/adxlmcu.cfg).
 14. Upload the `adxlmcu.cfg` file to your config directory. You can do this on Mainsail/Fluidd etc.
 15. Edit the `adxlmcu.cfg` file (in Mainsail/Fluidd). Change the MCU serial address (step 12) and the probe points.
 16. Save and close.
